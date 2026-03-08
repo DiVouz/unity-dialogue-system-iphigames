@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d400bbd2ed64af46b775e7fdef9f55f, type: 3}
+  m_Name: Example
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
+  entries:
+  - SpeakerName: 'Commander Vael '
+    SpeakerSprite: {fileID: 562091821489382497, guid: d46730676535e6a4e9aa30b9e3eeec45, type: 3}
+    DialogueText: The signal came from sector [interact] seven. Our scouts haven't
+      returned, and frankly... I'm not sure they ever will.
+  - SpeakerName: Dr. Orin
+    SpeakerSprite: {fileID: 8816555571958252312, guid: b7fe219d61f25b248a3d76c8de908a3c, type: 3}
+    DialogueText: I've analyzed the [interact] data twice! Whatever is out there,
+      it's [interact] rewriting its own physics. Press [interact] to confirm your
+      clearance.
+  - SpeakerName: 'System '
+    SpeakerSprite: {fileID: 6553503856012885825, guid: 35591ffa66898f346bc0d43bca9c3e58, type: 3}
+    DialogueText: 'Authorization confirmed. Deploying unit [interact] IPHIGAMES-7
+      to the anomaly zone. Estimated arrival: [interact] 14 minutes.'
